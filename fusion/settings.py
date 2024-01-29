@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": "fusion",
+        "NAME": BASE_DIR / "fusion.sqlite3",
     }
 }
 
@@ -127,5 +127,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MEDIA_URL = '/media'
+MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, '/media')
