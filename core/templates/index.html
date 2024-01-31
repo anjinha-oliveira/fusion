@@ -1,11 +1,43 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
-</head>
-<body>
-    <h1>Index</h1>
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Hero Area Start -->
+        {% include 'hero.html' %}
+    <!-- Hero Area End -->
+
+    <!-- Services Section Start -->
+        {% include 'servicos.html' %}
+    <!-- Services Section End -->
+
+    <!-- About Section start -->
+        {% include 'sobre.html' %}
+    <!-- About Section End -->
+
+    <!-- Features Section Start -->
+        {% include 'funcionalidades.html' %}
+    <!-- Features Section End -->   
+
+    <!-- Team Section Start -->
+        {% include 'equipe.html' %}
+    <!-- Team Section End -->
+
+    <!-- Pricing section Start --> 
+        {% include 'preco.html' %}
+    <!-- Pricing Table Section End -->
+
+    <!-- Testimonial Section Start -->
+        {% include 'clientes.html' %}
+    <!-- Testimonial Section End -->
+
+    <!-- Call To Action Section Start -->
+        {% include 'chamada.html' %}
+    <!-- Call To Action Section Start -->
+
+    <!-- Contact Section Start -->
+        {% include 'contato.html'%}
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+        {% include 'rodape.html' %}
+    <!-- Footer Section End -->
+    {% endblock %}
