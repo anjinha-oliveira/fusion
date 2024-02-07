@@ -73,8 +73,7 @@ class Funcionalidades(Base):
         ('lni-laptop-phone', 'Eletrónicos'),
         ('lni-cog', 'Engrenagem'), 
         ('lni-leaf', 'Folha'),
-        ('lni-layers', 'Camadas'),
-        ('lni-leaf', 'Folhas')     
+        ('lni-layers', 'Camadas'),    
     )
     nome = models.CharField('Nome', max_length=100)
     descricao = models.TextField('Descrição', max_length=200)
