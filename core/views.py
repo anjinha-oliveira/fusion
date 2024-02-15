@@ -13,6 +13,8 @@ class indexView(TemplateView):
         context = super(indexView, self).get_context_data(**kwargs)
         context['servicos'] = Servico.objects.order_by('?').all()
         context['funcionarios'] = Funcionario.objects.order_by('?').all()
+        context['funcionalidades'] = Funcionalidades.objects.order_by('?').all()
+
         return context
 
 
