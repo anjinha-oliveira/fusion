@@ -14,3 +14,12 @@ class ContatoForms(forms.Form):
         mensagem = self.cleaned_data['mensagem']
 
         conteudo = f'Nome: {nome}\nE-mail: {email}\nAssunto: {assunto}\nMensagem: {mensagem}'
+        
+        mail = EmailMessage(
+            subject=assunto,
+            body=conteudo,
+            from_email='contato@fusion.com.br',
+            to=['contato@fusion.com.br',],
+            headers={'Reply-To': email}
+        )
+        mail.send()
