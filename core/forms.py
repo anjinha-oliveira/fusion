@@ -12,3 +12,5 @@ class ContatoForms(forms.Form):
         email = self.cleaned_data['email']
         assunto = self.cleaned_data['assunto']
         mensagem = self.cleaned_data['mensagem']
+
+        conteudo = f'Nome: {nome}\nE-mail: {email}\nAssunto: {assunto}\nMensagem: {mensagem}'
