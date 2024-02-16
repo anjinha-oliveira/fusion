@@ -1,5 +1,7 @@
+from django.http import HttpResponse
 from django.views.generic import TemplateView, FormView
 from django.urls import reverse_lazy
+from django.contrib import messages
 
 from .models import Servico, Funcionario, Funcionalidades
 from .forms import ContatoForm
@@ -18,6 +20,10 @@ class indexView(TemplateView, FormView):
         context['funcionalidades'] = Funcionalidades.objects.order_by('?').all()
 
         return context
-
+    
+    def form_valid(self, form, *args, **kwargs):
+        form.send_mail()
+        messages.success(self.request, 'E-mail enviado com sucesso')
+        return super(indexView, self).form_valid(form, *args, **kwargs)
 
 
