@@ -17,8 +17,8 @@
       "dest": "fusion/wsgi.py"
     },
     {
-      "src": "/staticfiles/(.*)",
-      "dest": "/staticfiles/$1"
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     }
   ],
   "outputDirectory": "staticfiles_build"
