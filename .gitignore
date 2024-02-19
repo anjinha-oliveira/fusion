@@ -1,5 +1,8 @@
-__pycache__
-*.*˜
+__pycache__/
 *.pyc
 .idea
 .venv/
+.env
+staticfiles/
+.DS_Store
+.pyc
