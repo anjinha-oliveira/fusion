@@ -43,7 +43,7 @@ A aplicação estará disponível em http://localhost:8080/
 ### Tecnologias Utilizadas
 
 * Python (Versão 3.12)
-* Django (Versão 5.0.2)
+* Django (Versão 3.2)
 * Dj-Database-URL
 * Python-Decouple
 * Django-StdImage
