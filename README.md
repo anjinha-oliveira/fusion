@@ -1,47 +1,55 @@
-# Fusion
+# Projeto Fusion
+## Construindo uma Aplicação Web com Django
 
 Projeto desenvolvido para aprender sobre a construção de uma aplicação web utilizando o framework Django.</br>
 Para isso, utilizei um template da web e fui desenvolvendo a aplicação a partir de cada seção do mesmo.
 
-### Como instalar
+### Instruções de Instalação
+
+1. Clone o repositório:
+
+   ```sh
+   $ git clone https://github.com/anjinha-oliveira/fusion.git
+   $ cd fusion
+   ```
+
+### Crie e ative um ambiente virtual
+
 ```sh
-$ python3 -m venv .venv
+$ python3 -m virtualenv .venv
 $ source .venv/bin/activate
+```
+
+### Instale as dependências
+
+```sh
 $ pip install -r requirements.txt
 ```
 
-### Para executar testes (Executar no repo **app**):
+### Execute as migrações do Django:
 
 ```sh
-$ python3 -m pytest -v
+$ python manage.py migrate
 ```
 
-### Para executar API (Executar comando no **root** do projeto):
+### Executando a aplicação (Execute comando no root do projeto)
 
 ```sh
-$ python3 -m uvicorn main:app --reload --app-dir=app
+$ python manage.py runserver 8080
 ```
 
-### Tecnologias usadas
+A aplicação estará disponível em http://localhost:8080/
 
-* Python3 (Versão 3.12)
-* Fastapi
-* Pytest
-* Selenium
-* Postman
+### Tecnologias Utilizadas
 
+* Python (Versão 3.12)
+* Django (Versão 5.0.2)
+* Dj-Database-URL
+* Python-Decouple
+* Django-StdImage
+* uWSGI
+* Dj-Static
 
-### Documentação da API
-http://localhost:8000/docs/
+### Deploy Vercel
 
-
-### Executanto a API pelo terminal
-```sh
-$ curl -X 'POST' \
-  'http://localhost:8000/buscar' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-    "cnj": "0070337-91.2008.8.06.0001"
-  }'
-```
+A aplicação está disponível em https://fusion-phi.vercel.app/
