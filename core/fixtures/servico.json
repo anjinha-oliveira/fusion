@@ -1,0 +1,26 @@
+[
+    {
+        "model": "core.servico",
+        "pk": 1,
+        "fields": {
+            "criados": "2024-02-02",
+            "modificado": "2024-02-02",
+            "ativo": true,
+            "servico": "Automação Industrial",
+            "descricao": "Fazemos automação industrial para empresas",
+            "icone": "lni-cog"
+        }
+    },
+    {
+        "model": "core.servico",
+        "pk": 2,
+        "fields": {
+            "criados": "2024-02-02",
+            "modificado": "2024-02-02",
+            "ativo": true,
+            "servico": "Designer Gráfico",
+            "descricao": "jasjdlajdljaldkjalkscmklnmcklznmclka",
+            "icone": "lni-stats-up"
+        }
+    }
+]

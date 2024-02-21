@@ -4,5 +4,6 @@ __pycache__
 .venv/
 .env
 staticfiles/
+staticfiles_build
 .DS_Store
 .pyc

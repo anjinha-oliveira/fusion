@@ -1,0 +1,74 @@
+[
+{
+    "model": "core.funcionalidades",
+    "pk": 1,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Baseado em Bootstrap 4",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-rocket"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 2,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Totalmente responsivo",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-laptop-phone"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 3,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "HTML5, CSS3 & SASS",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-cog"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 4,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-15",
+        "ativo": true,
+        "nome": "Designer moderno",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "icone": "lni-leaf"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 5,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Modelo Multifuncional",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "icone": "lni-layers"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 6,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Formulário de Contato de Trabalho",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-leaf"
+    }
+}
+]

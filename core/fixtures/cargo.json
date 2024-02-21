@@ -1,0 +1,42 @@
+[
+    {
+        "model": "core.cargo",
+        "pk": 1,
+        "fields": {
+            "criados": "2024-02-06",
+            "modificado": "2024-02-06",
+            "ativo": true,
+            "cargo": "Front-end Developer"
+        }
+    },
+    {
+        "model": "core.cargo",
+        "pk": 2,
+        "fields": {
+            "criados": "2024-02-06",
+            "modificado": "2024-02-06",
+            "ativo": true,
+            "cargo": "Product Designer"
+        }
+    },
+    {
+        "model": "core.cargo",
+        "pk": 3,
+        "fields": {
+            "criados": "2024-02-06",
+            "modificado": "2024-02-06",
+            "ativo": true,
+            "cargo": "Lead Designer"
+        }
+    },
+    {
+        "model": "core.cargo",
+        "pk": 4,
+        "fields": {
+            "criados": "2024-02-06",
+            "modificado": "2024-02-06",
+            "ativo": true,
+            "cargo": "Lead Designer"
+        }
+    }
+]

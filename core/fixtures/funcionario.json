@@ -1,0 +1,67 @@
+
+[
+{
+    "model": "core.funcionario",
+    "pk": 1,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "DAVID SMITH",
+        "cargo": 1,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-01.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+},
+{
+    "model": "core.funcionario",
+    "pk": 2,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "CATARINA PETERSON",
+        "cargo": 2,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-02.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+},
+{
+    "model": "core.funcionario",
+    "pk": 3,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "DURWIN BABB",
+        "cargo": 3,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-03.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+},
+{
+    "model": "core.funcionario",
+    "pk": 4,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "MARIJN OTTE",
+        "cargo": 4,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-04.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+}
+]
