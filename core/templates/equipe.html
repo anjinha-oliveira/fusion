@@ -9,7 +9,6 @@
         <div class="row">
             {% for funcionario in funcionarios %}
                 <div class="col-lg-6 col-md-12 col-xs-12">
-                    <!-- Team Item Starts -->
                     <div class="team-item wow fadeInRight" data-wow-delay="0.2s">
                         <div class="team-img">
                             <img class="img-fluid" src="{{ funcionario.imagem.thumb.url }}" alt="{{ funcionario.nome }}">
@@ -33,7 +32,6 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- Team Item Ends -->
                 </div>
             {% endfor %}
         </div>
