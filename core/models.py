@@ -94,7 +94,7 @@ class Feedbacks(Base):
 
     nome = models.CharField('Nome', max_length=100)
     profissao = models.CharField('Profissão', max_length=200)
-    feedbacks = models.CharField('Feedbacks', max_length=400)
+    feedbacks = models.TextField('Feedbacks', max_length=400)
     icone = models.CharField('Icone', max_length=16, choices=ICONE_CHOICES)
 
     class Meta:
