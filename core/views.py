@@ -3,7 +3,7 @@ from django.views.generic import TemplateView, FormView
 from django.urls import reverse_lazy
 from django.contrib import messages
 
-from .models import Servico, Funcionario, Funcionalidades
+from .models import Servico, Funcionario, Funcionalidades, Feedbacks
 from .forms import ContatoForm
 
 #Exemplo de Class Based Views
@@ -18,6 +18,7 @@ class indexView(TemplateView, FormView):
         context['servicos'] = Servico.objects.order_by('?').all()
         context['funcionarios'] = Funcionario.objects.order_by('?').all()
         context['funcionalidades'] = Funcionalidades.objects.order_by('?').all()
+        context['feedbacks'] = Feedbacks.objects.order_by('?').all()
 
         return context
     
