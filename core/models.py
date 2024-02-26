@@ -85,3 +85,21 @@ class Funcionalidades(Base):
 
     def __str__(self):
         return self.nome
+    
+class Feedbacks(Base):
+    ICONE_CHOICES = (
+        ('lni-star-filled', 'Estrela prenchida'),
+        ('lni-star-half', 'Estrela vazia')
+    )
+
+    nome = models.CharField('Nome', max_length=100)
+    profissao = models.CharField('Profissão', max_length=200)
+    feedbacks = models.CharField('Feedbacks', max_length=400)
+    icone = models.CharField('Icone', max_length=16, choices=ICONE_CHOICES)
+
+    class Meta:
+        verbose_name = 'Feedback'
+        verbose_name_plural = 'Feedbacks'
+
+    def __str__(self):
+        return self.nome
