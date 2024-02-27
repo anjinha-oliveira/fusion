@@ -96,6 +96,17 @@ class Feedbacks(Base):
     profissao = models.CharField('Profissão', max_length=200)
     feedbacks = models.TextField('Feedbacks', max_length=400)
     icone = models.CharField('Icone', max_length=16, choices=ICONE_CHOICES)
+    imagem = StdImageField(
+        'Imagem',
+        upload_to='media/clientes',
+        variations={'thumb': 
+                    {
+                        'width': 180, 
+                        'height': 10, 
+                        'crop': True
+                    }
+        }
+    )
 
     class Meta:
         verbose_name = 'Feedback'
