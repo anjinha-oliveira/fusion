@@ -98,11 +98,11 @@ class Feedbacks(Base):
     icone = models.CharField('Icone', max_length=16, choices=ICONE_CHOICES)
     imagem = StdImageField(
         'Imagem',
-        upload_to='media/clientes',
+        upload_to='staticfiles_build/img/testimonial',
         variations={'thumb': 
                     {
                         'width': 180, 
-                        'height': 10, 
+                        'height': 180, 
                         'crop': True
                     }
         }
