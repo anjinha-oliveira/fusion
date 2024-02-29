@@ -4,27 +4,13 @@
     "pk": 1,
     "fields": {
         "criados": "2024-02-26",
-        "modificado": "2024-02-27",
+        "modificado": "2024-02-29",
         "ativo": true,
         "nome": "João Silva",
         "profissao": "Designer",
         "feedbacks": "Excelente trabalho! A atenção aos detalhes e a criatividade na abordagem dos projetos são impressionantes. Recomendo fortemente!",
         "icone": "lni-star-filled",
-        "imagem": "media/clientes/joao-silva_oDZtSAj.jpeg"
-    }
-},
-{
-    "model": "core.feedbacks",
-    "pk": 2,
-    "fields": {
-        "criados": "2024-02-26",
-        "modificado": "2024-02-27",
-        "ativo": true,
-        "nome": "Maria Oliveira",
-        "profissao": "Desenvolvedora Front-end",
-        "feedbacks": "Trabalhar com esta equipe foi uma experiência incrível. Eles são altamente profissionais, entregam no prazo e sempre superam as expectativas.",
-        "icone": "lni-star-half",
-        "imagem": "media/clientes/mulheres-profissionas0303_Pdbqhyy.jpg"
+        "imagem": "staticfiles_build/img/testimonial/img6.jpg"
     }
 },
 {
@@ -32,13 +18,13 @@
     "pk": 3,
     "fields": {
         "criados": "2024-02-26",
-        "modificado": "2024-02-27",
+        "modificado": "2024-02-29",
         "ativo": true,
         "nome": "Carlos Santos",
         "profissao": "Analista de Qualidade",
         "feedbacks": "Estou muito satisfeito com a qualidade do serviço prestado. A equipe demonstrou um comprometimento excepcional com a excelência.",
         "icone": "lni-star-filled",
-        "imagem": "media/clientes/copia_de_carlos-santos.jpg"
+        "imagem": "staticfiles_build/img/testimonial/img3.jpg"
     }
 },
 {
@@ -46,13 +32,13 @@
     "pk": 4,
     "fields": {
         "criados": "2024-02-26",
-        "modificado": "2024-02-27",
+        "modificado": "2024-02-29",
         "ativo": true,
         "nome": "Ana Rodrigues",
         "profissao": "Gerente de Projetos",
         "feedbacks": "A abordagem proativa da equipe é um diferencial. Eles são ágeis, comunicativos e sempre encontram soluções eficientes para os desafios do projeto.",
         "icone": "lni-star-half",
-        "imagem": "media/clientes/formacao_1600x1200-uma-mulher-virtuosa-e-feita-de-esforcos_3gXGcL9.jpg"
+        "imagem": "staticfiles_build/img/testimonial/img4.jpg"
     }
 },
 {
@@ -60,13 +46,13 @@
     "pk": 5,
     "fields": {
         "criados": "2024-02-26",
-        "modificado": "2024-02-27",
+        "modificado": "2024-02-29",
         "ativo": true,
         "nome": "Felipe Almeida",
         "profissao": "Analista de Dados",
         "feedbacks": "Os resultados falam por si só. O trabalho da equipe demonstra um entendimento profundo dos requisitos e uma execução impecável.",
         "icone": "lni-star-filled",
-        "imagem": "media/clientes/copia_de_felipe-almeida.jpg"
+        "imagem": "staticfiles_build/img/testimonial/img5.jpg"
     }
 },
 {
@@ -74,13 +60,13 @@
     "pk": 6,
     "fields": {
         "criados": "2024-02-26",
-        "modificado": "2024-02-27",
+        "modificado": "2024-02-29",
         "ativo": true,
         "nome": "Patrícia Lima",
         "profissao": "Arquiteta de Informação",
         "feedbacks": "Trabalhar com essa equipe foi uma experiência excepcional. Eles entendem profundamente as necessidades do usuário e entregam soluções intuitivas e eficientes.",
         "icone": "lni-star-half",
-        "imagem": "media/clientes/candice-picard-VDihQhOiOkI-unsplash-1-1920x1280.jpeg"
+        "imagem": "staticfiles_build/img/testimonial/img2.jpg"
     }
 },
 {
@@ -88,13 +74,13 @@
     "pk": 7,
     "fields": {
         "criados": "2024-02-26",
-        "modificado": "2024-02-27",
+        "modificado": "2024-02-29",
         "ativo": true,
         "nome": "Ricardo Pereira",
         "profissao": "Engenheiro de Software",
         "feedbacks": "A abordagem colaborativa da equipe é notável. Eles estão sempre abertos ao feedback, o que resulta em produtos finais que atendem perfeitamente às nossas necessidades.",
         "icone": "lni-star-filled",
-        "imagem": "media/clientes/ricardo-pereira_KshxaVm.jpeg"
+        "imagem": "staticfiles_build/img/testimonial/img1_xHopYnm.jpg"
     }
 }
 ]
