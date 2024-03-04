@@ -50,6 +50,6 @@ A aplicação estará disponível em http://localhost:8080/
 * uWSGI
 * Dj-Static
 
-### Deploy Vercel
+### Deploy Render
 
-A aplicação está disponível em https://fusion-phi.vercel.app/
+A aplicação está disponível em https://fusion-app.onrender.com/
