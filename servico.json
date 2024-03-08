@@ -1,0 +1,310 @@
+[
+{
+    "model": "core.servico",
+    "pk": 1,
+    "fields": {
+        "criados": "2024-02-02",
+        "modificado": "2024-02-02",
+        "ativo": true,
+        "servico": "Automação Industrial",
+        "descricao": "Fazemos automação industrial para empresas",
+        "icone": "lni-cog"
+    }
+},
+{
+    "model": "core.servico",
+    "pk": 2,
+    "fields": {
+        "criados": "2024-02-02",
+        "modificado": "2024-02-02",
+        "ativo": true,
+        "servico": "Designer Gráfico",
+        "descricao": "jasjdlajdljaldkjalkscmklnmcklznmclka",
+        "icone": "lni-stats-up"
+    }
+},
+{
+    "model": "core.cargo",
+    "pk": 1,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "cargo": "Front-end Developer"
+    }
+},
+{
+    "model": "core.cargo",
+    "pk": 2,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "cargo": "Product Designer"
+    }
+},
+{
+    "model": "core.cargo",
+    "pk": 3,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "cargo": "Lead Designer"
+    }
+},
+{
+    "model": "core.cargo",
+    "pk": 4,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "cargo": "Lead Designer"
+    }
+},
+{
+    "model": "core.funcionario",
+    "pk": 1,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "DAVID SMITH",
+        "cargo": 1,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-01.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+},
+{
+    "model": "core.funcionario",
+    "pk": 2,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "CATARINA PETERSON",
+        "cargo": 2,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-02.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+},
+{
+    "model": "core.funcionario",
+    "pk": 3,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "DURWIN BABB",
+        "cargo": 3,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-03.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+},
+{
+    "model": "core.funcionario",
+    "pk": 4,
+    "fields": {
+        "criados": "2024-02-06",
+        "modificado": "2024-02-06",
+        "ativo": true,
+        "nome": "MARIJN OTTE",
+        "cargo": 4,
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.",
+        "imagem": "equipe/team-04.png",
+        "facebook": "#",
+        "twitter": "#",
+        "instagram": "#"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 1,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Baseado em Bootstrap 4",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-rocket"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 2,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Totalmente responsivo",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-laptop-phone"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 3,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "HTML5, CSS3 & SASS",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-cog"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 4,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-15",
+        "ativo": true,
+        "nome": "Designer moderno",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "icone": "lni-leaf"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 5,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Modelo Multifuncional",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        "icone": "lni-layers"
+    }
+},
+{
+    "model": "core.funcionalidades",
+    "pk": 6,
+    "fields": {
+        "criados": "2024-02-07",
+        "modificado": "2024-02-07",
+        "ativo": true,
+        "nome": "Formulário de Contato de Trabalho",
+        "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "icone": "lni-leaf"
+    }
+},
+{
+    "model": "core.feedbacks",
+    "pk": 1,
+    "fields": {
+        "criados": "2024-02-26",
+        "modificado": "2024-02-29",
+        "ativo": true,
+        "nome": "João Silva",
+        "profissao": "Designer",
+        "feedbacks": "Excelente trabalho! A atenção aos detalhes e a criatividade na abordagem dos projetos são impressionantes. Recomendo fortemente!",
+        "estrela_1": "lni-star-filled",
+        "estrela_2": "lni-star-filled",
+        "estrela_3": "lni-star-filled",
+        "estrela_4": "lni-star-filled",
+        "estrela_5": "lni-star-filled",
+        "imagem": "staticfiles_build/img/testimonial/img6.jpg"
+    }
+},
+{
+    "model": "core.feedbacks",
+    "pk": 3,
+    "fields": {
+        "criados": "2024-02-26",
+        "modificado": "2024-02-29",
+        "ativo": true,
+        "nome": "Carlos Santos",
+        "profissao": "Analista de Qualidade",
+        "feedbacks": "Estou muito satisfeito com a qualidade do serviço prestado. A equipe demonstrou um comprometimento excepcional com a excelência.",
+        "estrela_1": "lni-star-filled",
+        "estrela_2": "lni-star-filled",
+        "estrela_3": "lni-star-filled",
+        "estrela_4": "lni-star-filled",
+        "estrela_5": "lni-star-filled",
+        "imagem": "staticfiles_build/img/testimonial/img3.jpg"
+    }
+},
+{
+    "model": "core.feedbacks",
+    "pk": 4,
+    "fields": {
+        "criados": "2024-02-26",
+        "modificado": "2024-02-29",
+        "ativo": true,
+        "nome": "Ana Rodrigues",
+        "profissao": "Gerente de Projetos",
+        "feedbacks": "A abordagem proativa da equipe é um diferencial. Eles são ágeis, comunicativos e sempre encontram soluções eficientes para os desafios do projeto.",
+        "estrela_1": "lni-star-filled",
+        "estrela_2": "lni-star-filled",
+        "estrela_3": "lni-star-filled",
+        "estrela_4": "lni-star-filled",
+        "estrela_5": "lni-star-filled",
+        "imagem": "staticfiles_build/img/testimonial/img4.jpg"
+    }
+},
+{
+    "model": "core.feedbacks",
+    "pk": 5,
+    "fields": {
+        "criados": "2024-02-26",
+        "modificado": "2024-02-29",
+        "ativo": true,
+        "nome": "Felipe Almeida",
+        "profissao": "Analista de Dados",
+        "feedbacks": "Os resultados falam por si só. O trabalho da equipe demonstra um entendimento profundo dos requisitos e uma execução impecável.",
+        "estrela_1": "lni-star-filled",
+        "estrela_2": "lni-star-filled",
+        "estrela_3": "lni-star-filled",
+        "estrela_4": "lni-star-filled",
+        "estrela_5": "lni-star-filled",
+        "imagem": "staticfiles_build/img/testimonial/img5.jpg"
+    }
+},
+{
+    "model": "core.feedbacks",
+    "pk": 6,
+    "fields": {
+        "criados": "2024-02-26",
+        "modificado": "2024-02-29",
+        "ativo": true,
+        "nome": "Patrícia Lima",
+        "profissao": "Arquiteta de Informação",
+        "feedbacks": "Trabalhar com essa equipe foi uma experiência excepcional. Eles entendem profundamente as necessidades do usuário e entregam soluções intuitivas e eficientes.",
+        "estrela_1": "lni-star-filled",
+        "estrela_2": "lni-star-filled",
+        "estrela_3": "lni-star-filled",
+        "estrela_4": "lni-star-filled",
+        "estrela_5": "lni-star-filled",
+        "imagem": "staticfiles_build/img/testimonial/img2.jpg"
+    }
+},
+{
+    "model": "core.feedbacks",
+    "pk": 7,
+    "fields": {
+        "criados": "2024-02-26",
+        "modificado": "2024-02-29",
+        "ativo": true,
+        "nome": "Ricardo Pereira",
+        "profissao": "Engenheiro de Software",
+        "feedbacks": "A abordagem colaborativa da equipe é notável. Eles estão sempre abertos ao feedback, o que resulta em produtos finais que atendem perfeitamente às nossas necessidades.",
+        "estrela_1": "lni-star-filled",
+        "estrela_2": "lni-star-filled",
+        "estrela_3": "lni-star-filled",
+        "estrela_4": "lni-star-filled",
+        "estrela_5": "lni-star-filled",
+        "imagem": "staticfiles_build/img/testimonial/img1_xHopYnm.jpg"
+    }
+}
+]
