@@ -23,4 +23,13 @@ class FuncionalidadesAdmin(admin.ModelAdmin):
 
 @admin.register(Feedbacks)
 class FeedbacksAdmin(admin.ModelAdmin):
-    list_display = ('nome', 'profissao', 'feedbacks', 'icone')
+    list_display = (
+        'nome', 
+        'profissao', 
+        'feedbacks', 
+        'estrela_1',
+        'estrela_2',
+        'estrela_3',
+        'estrela_4',
+        'estrela_5', 
+    )

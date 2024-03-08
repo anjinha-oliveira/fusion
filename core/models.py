@@ -95,7 +95,12 @@ class Feedbacks(Base):
     nome = models.CharField('Nome', max_length=100)
     profissao = models.CharField('Profissão', max_length=200)
     feedbacks = models.TextField('Feedbacks', max_length=400)
-    icone = models.CharField('Icone', max_length=16, choices=ICONE_CHOICES)
+    estrela_1 = models.CharField('Estrela 1', max_length=16, choices=ICONE_CHOICES, default='lni-star-filled')
+    estrela_2 = models.CharField('Estrela 2', max_length=16, choices=ICONE_CHOICES, default='lni-star-filled')
+    estrela_3 = models.CharField('Estrela 3', max_length=16, choices=ICONE_CHOICES, default='lni-star-filled')
+    estrela_4 = models.CharField('Estrela 4', max_length=16, choices=ICONE_CHOICES, default='lni-star-filled')
+    estrela_5 = models.CharField('Estrela 5', max_length=16, choices=ICONE_CHOICES, default='lni-star-filled')
+
     imagem = StdImageField(
         'Imagem',
         upload_to='staticfiles_build/img/testimonial',
