@@ -26,21 +26,17 @@
                             <div class="content">
                                 <p class="description">{{ feedback.feedbacks }}</p>
                                 <div class="star-icon mt-3">
-                                    <span>
-                                        <i class="{{ feedback.icone }}"></i>
-                                    </span>
-                                    <span>
-                                        <i class="{{feedback.icone}}"></i>
-                                    </span>
-                                    <span>
-                                        <i class="{{feedback.icone}}"></i>
-                                    </span>
-                                    <span>
-                                        <i class="{{feedback.icone}}"></i>
-                                    </span>
-                                    <span>
-                                        <i class="{{feedback.icone}}"></i>
-                                    </span>
+                                    {% for estrela in feedback.estrelas_preenchidas %}
+                                        <span>
+                                            <i class="lni-star-filled"></i>
+                                        </span>
+                                    {% endfor %}
+
+                                    {% for estrela in feedback.estrelas_vazias %}
+                                        <span>
+                                            <i class="lni-star-half"></i>
+                                        </span>
+                                    {% endfor %}
                                 </div>
                             </div>
                         </div>
